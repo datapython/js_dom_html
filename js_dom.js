@@ -17,7 +17,7 @@ bookmarks.push({url: 'https://instagram.com'});
 bookmarks.push({url: 'https://twitter.com'});
 
 //Outputs
-console.log(bookmarks);
+// console.log(bookmarks);
 
 // Bind to id bookmarks for a div
 
