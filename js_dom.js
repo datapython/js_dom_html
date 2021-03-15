@@ -55,11 +55,11 @@ for (let element of bookmarks) {
 
 // </div>
 
-const p1 = document.createElementByID('alink');
-for (let ele of bookmarks) {
-    const aEle = document.createElement('a');
-    aEle.href = ele.url;
-    const brk = document.createElement('br'); 
-    p1.appendChild(aEle);
-    // appendChildElement.innerHTML = element.url;
-}
+// const p1 = document.createElementByID('alink');
+// for (let ele of bookmarks) {
+//     const aEle = document.createElement('a');
+//     aEle.href = ele.url;
+//     const brk = document.createElement('br'); 
+//     p1.appendChild(aEle);
+//     // appendChildElement.innerHTML = element.url;
+// }
