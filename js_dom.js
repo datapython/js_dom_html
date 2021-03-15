@@ -1,4 +1,5 @@
 // run this script a terminal is not working due to our node js is a server side js.
+// but it works at github webpage.
 
 const bookmarks = [];
 
@@ -44,3 +45,12 @@ for (let element of bookmarks) {
     appendChildElement = parentElement.appendChild(childElement);
     appendChildElement.innerHTML = element.url;
 }
+
+// This loop creates the following 
+// <div id="bookmarks">
+
+// <div>https://facebook.com</div>
+// <div>https://instagram.com</div>
+// <div>https://twitter.com</div>
+
+// </div>
