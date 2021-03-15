@@ -7,9 +7,9 @@ const bookmarks = [];
 // SyntaxError: Missing initializer in const declaration
 // Using let or var which do not reqiur initialization
 
-let childElement;
-let appendChildElement;
-let parentElement;
+// let childElement;
+// let appendChildElement;
+// let parentElement;
 
 // Create a new bookmark (object)
 bookmarks.push({url: 'https://facebook.com'});
@@ -30,7 +30,7 @@ bookmarks.push({url: 'https://twitter.com'});
     // Option 3:
     // The final option and most commonly one is to use getElementById('id-name') because our element has an ID of bookmarks. So for this example, we’ll be using this one.
 
-parentElement = document.getElementById('bookmarks');
+const parentElement = document.getElementById('bookmarks');
 // parentElement = document.querySelector("#bookmarks");
 
 // Add child element
@@ -41,8 +41,8 @@ parentElement = document.getElementById('bookmarks');
     // Show bookmark URL in child element
 
 for (let element of bookmarks) {
-    childElement = document.createElement('div');
-    appendChildElement = parentElement.appendChild(childElement);
+    const childElement = document.createElement('div');
+    const appendChildElement = parentElement.appendChild(childElement);
     appendChildElement.innerHTML = element.url;
 }
 
