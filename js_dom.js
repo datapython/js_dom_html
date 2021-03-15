@@ -63,3 +63,14 @@ for (let element of bookmarks) {
 //     p1.appendChild(aEle);
 //     // appendChildElement.innerHTML = element.url;
 // }
+
+const p1 = document.getElementById('alink');
+for (let ele of bookmarks) {
+    const alink = document.createElement('a');
+    alink.href = ele.url;
+    alink.innerHTML = ele.url;
+    p1.appendChild(alink);
+    const brk = document.createElement('br');
+    alink.appendChild(brk);
+    
+}
