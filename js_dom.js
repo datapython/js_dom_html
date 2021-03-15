@@ -56,9 +56,9 @@ for (let element of bookmarks) {
 // </div>
 
 for (let element of bookmarks) {
-    childElement = document.createElement('a');
-    childElement.href = element.url;
+    const aEle = document.createElement('a');
+    aEle.href = element.url;
     const brk = document.createElement('br'); 
-    parentElement.appendChild(childElement);
+    parentElement.appendChild(aEle);
     // appendChildElement.innerHTML = element.url;
 }
