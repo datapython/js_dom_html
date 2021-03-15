@@ -54,3 +54,11 @@ for (let element of bookmarks) {
 // <div>https://twitter.com</div>
 
 // </div>
+
+for (let element of bookmarks) {
+    childElement = document.createElement('a');
+    childElement.href = element.url;
+    const brk = document.createElement('br'); 
+    parentElement.appendChild(childElement);
+    // appendChildElement.innerHTML = element.url;
+}
