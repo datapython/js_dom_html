@@ -64,12 +64,12 @@ for (let element of bookmarks) {
 //     // appendChildElement.innerHTML = element.url;
 // }
 
-const p1 = document.getElementById('alink');
-for (let ele of bookmarks) {
-    const alink = document.createElement('a');
-    alink.href = ele.url;
-    alink.innerHTML = ele.url;
-    p1.appendChild(alink);
-    const brk = document.createElement('br');
-    alink.appendChild(brk);    
-}
+// const p1 = document.getElementById('alink');
+// for (let ele of bookmarks) {
+//     const alink = document.createElement('a');
+//     alink.href = ele.url;
+//     alink.innerHTML = ele.url;
+//     p1.appendChild(alink);
+//     const brk = document.createElement('br');
+//     alink.appendChild(brk);    
+// }
