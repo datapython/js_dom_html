@@ -71,6 +71,5 @@ for (let ele of bookmarks) {
     alink.innerHTML = ele.url;
     p1.appendChild(alink);
     const brk = document.createElement('br');
-    alink.appendChild(brk);
-    
+    alink.appendChild(brk);    
 }
